@@ -2,7 +2,7 @@
 function range(start, end) {
   let result = [];
 
-  for (let i = start; i <= end; i++) {
+  for (let i = start + 1; i < end; i++) {
     result.push(i);
   }
 
